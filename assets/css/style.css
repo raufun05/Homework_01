@@ -21,7 +21,7 @@ body {
 }
 
 .header h1 .seo {
-    color: #d7dcd6;
+    color: red;
 }
 
 .header div {
@@ -39,6 +39,9 @@ body {
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+}
+.header div ul li:hover a {
+   color: orangered;
 }
 
 a {
@@ -74,7 +77,33 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+.search-engine-optimization{
+    border-radius: 10px;
+}
+.search-engine-optimization h2{
+    text-align: center;
+}
+.search-engine-optimization h2:hover a{
+    color: purple; 
+}
+.online-reputation-management{
+    border-radius: 10px;
+}
+.online-reputation-management h2{
+    text-align: center;
+}
+.online-reputation-management h2:hover a{
+    color: purple; 
+}
+.social-media-marketing {
+    border-radius: 10px;
+}
+.social-media-marketing h2{
+    text-align: center;
+}
+.social-media-marketing h2:hover a{
+    color: purple; 
+}
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -84,6 +113,7 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    border-radius: 10px;
 }
 
 .benefit-lead {
@@ -195,6 +225,9 @@ p {
     text-align: center;
 }
 
-.footer h2 {
-    font-size: 20px;
+.footer h4 {
+    font-size: 16px;
+}
+.footer p {
+    font-size: 10px;
 }
