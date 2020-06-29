@@ -19,9 +19,9 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
+/* change color property here */
 .header h1 .seo {
-    color: red;
+    color: blue;
 }
 
 .header div {
@@ -77,33 +77,19 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-.search-engine-optimization{
-    border-radius: 10px;
-}
-.search-engine-optimization h2{
-    text-align: center;
-}
+/* added mouse hover activities here */
 .search-engine-optimization h2:hover a{
     color: purple; 
 }
-.online-reputation-management{
-    border-radius: 10px;
-}
-.online-reputation-management h2{
-    text-align: center;
-}
+/* added mouse hover activities here */
 .online-reputation-management h2:hover a{
     color: purple; 
 }
-.social-media-marketing {
-    border-radius: 10px;
-}
-.social-media-marketing h2{
-    text-align: center;
-}
+/* added mouse hover activities here */
 .social-media-marketing h2:hover a{
     color: purple; 
 }
+/* added more style here */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -163,7 +149,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* added more style here */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -171,8 +157,9 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    border-radius: 10px;
 }
-
+/* added more style here */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -180,8 +167,9 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    border-radius: 10px;
 }
-
+/* added more style here */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -189,6 +177,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    border-radius: 10px;
 }
 
 .search-engine-optimization img {
@@ -202,20 +191,23 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* added more style here */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    text-align: center;
 }
-
+/* added more style here */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    text-align: center;
 }
-
+/* added more style here */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    text-align: center;
 }
 
 .footer {
@@ -224,10 +216,11 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* change style here */
 .footer h4 {
     font-size: 16px;
 }
+/* change style here */
 .footer p {
     font-size: 10px;
 }
